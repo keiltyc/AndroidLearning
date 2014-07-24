@@ -2,11 +2,14 @@ import java.util.Scanner;
 
 class apples{
 	public static void main(String args[]){
-		System.out.println("Plese input data");
-		
 		Scanner cheese = new Scanner(System.in);
-	
-		System.out.println(cheese2.nextLine());
-		
+		double fnum, snum, answer;	
+		System.out.print("Plese input first number: ");
+		fnum = cheese.nextDouble();
+		System.out.print("Plese input second number: ");
+		snum = cheese.nextDouble();
+		answer = fnum*snum;
+		System.out.print("multiplied= ");
+		System.out.println(answer);
 	}
 }
