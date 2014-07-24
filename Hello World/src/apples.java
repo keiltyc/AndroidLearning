@@ -3,13 +3,10 @@ import java.util.Scanner;
 class apples{
 	public static void main(String args[]){
 		Scanner cheese = new Scanner(System.in);
-		double fnum, snum, answer;	
-		System.out.print("Plese input first number: ");
-		fnum = cheese.nextDouble();
-		System.out.print("Plese input second number: ");
-		snum = cheese.nextDouble();
-		answer = fnum*snum;
-		System.out.print("multiplied= ");
+		int fnum, snum, answer;
+		fnum = 7;
+		snum = 3;
+		answer = fnum % snum;
 		System.out.println(answer);
 	}
 }
