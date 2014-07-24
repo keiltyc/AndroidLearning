@@ -6,6 +6,7 @@ class apples{
 		
 		Scanner cheese = new Scanner(System.in);
 	
-		System.out.println(cheese.nextLine());
+		System.out.println(cheese2.nextLine());
+		
 	}
 }
