@@ -3,40 +3,26 @@ import java.util.Scanner;
 class apples{
 	public static void main(String args[]){
 		Scanner input = new Scanner(System.in);
-		double boy, girl;
+		int age;
 		
-		System.out.print("Girl's age: ");
-		girl = input.nextDouble();
+		System.out.print("Age: ");
+		age = input.nextInt();
 		
-		System.out.print("Boys's age: ");
-		boy = input.nextDouble();
+		switch (age){
+		case 1:
+			System.out.println("age 1 you can crawl");
+			break;
+			
+		case 2:
+			System.out.println("age 2 you can talk");
+			break;
 		
-		if (girl>=18){
-			System.out.println("Girl may enter");
-		}
-		else{
-			System.out.println("Girl is too young");
-		}
-		
-		if (boy>=18){
-			System.out.println("Boy may enter");
-		}
-		else{
-			System.out.println("Boy is too young");
-		}
-		
-		if (boy>=18 && girl>=18){
-			System.out.println("Both boy and girl may enter");
-		}
-		else{
-			System.out.println("One or both are too young");
-		}
-		
-		if (boy>=18 || girl>=18){
-			System.out.println("One or both are old enough to enter");
-		}
-		else{
-			System.out.println("Both are too young");
+		case 3:
+			System.out.println("age 2 you can walk");
+			break;
+			
+		default:
+			System.out.println("not age 1-3");
 		}
 	}
 }
