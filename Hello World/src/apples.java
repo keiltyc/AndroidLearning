@@ -22,7 +22,7 @@ class apples{
 			break;
 			
 		default:
-			System.out.println("not age 1-3");
+			System.out.println("not age 1 to 3");
 		}
 	}
 }
