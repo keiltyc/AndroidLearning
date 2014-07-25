@@ -5,9 +5,11 @@ class apples{
 		Scanner input = new Scanner(System.in);
 		tuna tunaObject = new tuna();
 		
-		System.out.println("Enter your name here: ");
-		String name = input.nextLine();
+		System.out.println("Enter your first gf name here: ");
+		String temp = input.nextLine();
 		
-		tunaObject.simpleMessage(name);
+		tunaObject.setName(temp);
+		tunaObject.saying();
+
 	}
 }
