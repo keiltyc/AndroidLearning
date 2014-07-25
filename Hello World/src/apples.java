@@ -2,8 +2,12 @@ import java.util.Scanner;
 
 class apples{
 	public static void main(String args[]){
+		Scanner input = new Scanner(System.in);
 		tuna tunaObject = new tuna();
-		tunaObject.simpleMessage();
-		System.out.println("in Eclipse just type syso and ctrl+space to get printline syntax.");
+		
+		System.out.println("Enter your name here: ");
+		String name = input.nextLine();
+		
+		tunaObject.simpleMessage(name);
 	}
 }
