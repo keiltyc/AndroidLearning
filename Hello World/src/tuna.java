@@ -1,10 +1,11 @@
 
 public class tuna {
 	private String girlName;
-	public void setName(String name){
+	
+	public tuna(String name){
 		girlName=name;
-		System.out.println("girlName is set to " + name);
 	}
+	
 	public String getName(){
 		return girlName;
 	}
