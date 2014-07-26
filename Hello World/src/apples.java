@@ -11,5 +11,9 @@ class apples{
 		tunaObject.setName(temp);
 		tunaObject.saying();
 
+		String getname = tunaObject.getName();
+		System.out.println("Calling up name " + getname);
+		
+		System.out.printf("Saving a step... remotely asking for %s",tunaObject.getName());
 	}
 }
